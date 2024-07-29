@@ -1,0 +1,19 @@
+const {createTheme} = require("@mui/material")
+
+export const darkTheme= createTheme({
+    palette:{
+        mode:"dark",
+        primary:{
+            main:"rgb(88,199,250)"
+        },
+        secondary:{
+            main:"#5A20CB"
+        },
+        secondary:{
+            main:"#212534",
+            default:"#212534",
+            paper:"#212534",
+        },
+        
+    }
+})
